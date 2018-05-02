@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Mute Tab",
+  "description": "One click mute tab",
+  "version": "1.0",
+  "icons": {
+    "18": "icons/ic_volume_off/ic_volume_off_black_1x_web_18dp.png",
+    "24": "icons/ic_volume_off/ic_volume_off_black_1x_web_24dp.png",
+    "36": "icons/ic_volume_off/ic_volume_off_black_2x_web_18dp.png",
+    "48": "icons/ic_volume_off/ic_volume_off_black_2x_web_24dp.png"
+  },
+  "browser_action": {
+    "default_title": "Mute this tab",
+    "default_icon": {
+      "18": "icons/ic_volume_mute/ic_volume_mute_black_1x_web_18dp.png",
+      "36": "icons/ic_volume_mute/ic_volume_mute_black_2x_web_18dp.png"
+    }
+  },
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  }
+}
